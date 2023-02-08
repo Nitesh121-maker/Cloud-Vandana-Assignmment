@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 50vh;
+    background: #252525;
+    width: 100%;
+    
+}
+.input{
+  height: 50vh;
+  width: 20%;
+  margin: auto;
+  background: #333;
+}
+.input input{
+    background: hsla(0,0%,100%,.1)!important;
+    border: none;
+    border-radius: 5px;
+    color: hsla(0,0%,100%,.3)!important;
+    margin-top: 2vh;
+    width: 99%;
+    height: 6vh;
+}
+button{
+    background: #1ba12d!important;
+    border: none;
+    border-radius: 5px;
+    color: #fff!important;
+    height: 5vh;
+    margin-bottom: 2em;
+    margin-left: 0;
+    margin-top: 2vh;
+    width: 100%;
+}
+#sentence{
+    margin-top: 10%;
+}
+p{
+    color: #fff;
+}

@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    counter-reset: Serial;     
+}
+.table{
+    width: 100%;
+}
+.table tr{
+   width: 100%;
+}
+table{
+    width: 100%;
+}
+ th {
+    border-collapse: collapse;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-family: Montserrat,Arial,sans-serif;
+    background: #333;
+}
+table, td {
+    border: 1px solid #1f194c;
+    border-collapse: collapse;
+    align-items: center;
+    text-align: center;
+    color: #1f194c;
+    font-family: Montserrat,Arial,sans-serif;
+}
+tr td:first-child:before{
+    counter-increment: Serial;      
+	content: counter(Serial); 
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.Add-row{
+    margin-top: 2%;
+    align-items: center;
+}
+button {
+    background: #1ba12d!important;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    height: 6vh;
+    margin-left: 10px;
+    width: 10vw;
+}
+input{
+    background: hsla(0,0%,100%,.1)!important;
+    /* border: none; */
+    border-radius: 5px;
+    color: hsla(0,0%,100%,.3)!important;
+    margin-top: 2vh;
+    height: 5vh;
+    width: 18.2vw;
+    margin: 3px;
+}
+
